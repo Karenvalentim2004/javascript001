@@ -4,7 +4,13 @@
 //  Declaração de variáveis(var, let, const)
 let nome = "Karen"
 let idade = 20
+
 //  Console e Debug
+console.log(nome)
+console.log(idade)
+nome = "Braian"
+idade = "28"
+console.log (nome, idade)
 
 //  Operadores
 //  Operador Atribuição
