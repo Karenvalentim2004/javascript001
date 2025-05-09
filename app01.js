@@ -125,7 +125,7 @@ while(controle <= 100){ // condição
 }
 
 // mostrar 10 vezes "Senac Americana"
-for(let i=1; i<=10 i=i+1){
+for(let i=1; i<=10; i=i+1){
    console.log("Senac Americana")
 }
 
@@ -133,7 +133,27 @@ for(let i=1; i<=50; i=i+1){
     console.log(i)
 }
 
-//  Arrays 
+//  Arrays --> vetor
+let alunos = ["João", "Paulo", "Renata", "Cris", "X"]
+console.log(alunos [0])
+alunos[4] = "kleber"
+console.log(alunos)
+alunos.push("Karen Linda")
+console.log(alunos)
+
+let frutas = []
+console.log(frutas)
+frutas.push("🥝")
+frutas.push("🍇")
+frutas.push("🍉")
+frutas.push("🍊")
+frutas.push("🍎")
+frutas.push("🍐")
+frutas.push("🍒")
+frutas.push("🥑")
+frutas.push("🍓")
+frutas.push("🍌")
+console.log(frutas)
 
 //  Funções básicas
 //  Escopo
