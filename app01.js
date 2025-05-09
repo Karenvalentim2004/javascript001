@@ -49,10 +49,20 @@ console.log(150>=175) // maior igual
 console.log(!10>2) // não - inverte o se resultado, se for verdadeiro muda para falso, se for falso muda para verdadeiro
 console.log(!false)
 
-console.log(10>2&& 35<100 &&n1>n2 && 100<90) // E - todas as verificaçoes precisam ser verdadeiras para o resultado ser verdadeiro
+console.log(10>2&& 35<100 &&n1>n2 && 100<90) // E - todas as verificações precisam ser verdadeiras para o resultado ser verdadeiro
 
 console.log(10<2 || 100==150 || 57==57) // OU - apenas uma verificação precisa ser verdadeira para o resultado ser verdadeiro, o resultado só será falso quando TODAS as verificações forem falsas
-// estrutura
+
+//DESAFIO
+let preco = 100
+let precoAcrescimo = +17
+let precoDesconto = -7
+// faça um código que acrescente 17% ao preço e imprima
+precoAcrescimo = preco + (preco * 0.17)
+console.log ("Preço com acrescimo: " + precoAcrescimo.toFixed(2))
+// faça um código que desconte 7% do preço e imprima
+precoDesconto = preco - preco * 0.07
+console.log("Preço com desconto: " + precoDesconto.toFixed(2))
 
 
 // Estrutura
