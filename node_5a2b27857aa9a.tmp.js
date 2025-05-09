@@ -115,24 +115,8 @@ while(controle <= 100){
 controle = 0
 while(controle <= 100){
     console.log(controle)
-    controle = controle +2
+    controle = controle /2
 }
-
-controle = 0 // definição de variavel de controle
-while(controle <= 100){ // condição
-    console.log(controle)
-    controle = controle +3 // incremento
-}
-
-// mostrar 10 vezes "Senac Americana"
-for(let i=1; i<=10 i=i+1){
-   console.log("Senac Americana")
-}
-
-for(let i=1; i<=50; i=i+1){
-    console.log(i)
-}
-
 //  Arrays 
 
 //  Funções básicas
